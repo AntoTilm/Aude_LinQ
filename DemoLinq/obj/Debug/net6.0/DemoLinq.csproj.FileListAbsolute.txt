@@ -1,0 +1,15 @@
+C:\Users\BSTORMAude\Desktop\[2] Current Formations\[2023] TB - Net Angular\Net\LINQ\DemoLinq\DemoLinq\bin\Debug\net6.0\DemoLinq.exe
+C:\Users\BSTORMAude\Desktop\[2] Current Formations\[2023] TB - Net Angular\Net\LINQ\DemoLinq\DemoLinq\bin\Debug\net6.0\DemoLinq.deps.json
+C:\Users\BSTORMAude\Desktop\[2] Current Formations\[2023] TB - Net Angular\Net\LINQ\DemoLinq\DemoLinq\bin\Debug\net6.0\DemoLinq.runtimeconfig.json
+C:\Users\BSTORMAude\Desktop\[2] Current Formations\[2023] TB - Net Angular\Net\LINQ\DemoLinq\DemoLinq\bin\Debug\net6.0\DemoLinq.dll
+C:\Users\BSTORMAude\Desktop\[2] Current Formations\[2023] TB - Net Angular\Net\LINQ\DemoLinq\DemoLinq\bin\Debug\net6.0\DemoLinq.pdb
+C:\Users\BSTORMAude\Desktop\[2] Current Formations\[2023] TB - Net Angular\Net\LINQ\DemoLinq\DemoLinq\obj\Debug\net6.0\DemoLinq.csproj.AssemblyReference.cache
+C:\Users\BSTORMAude\Desktop\[2] Current Formations\[2023] TB - Net Angular\Net\LINQ\DemoLinq\DemoLinq\obj\Debug\net6.0\DemoLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BSTORMAude\Desktop\[2] Current Formations\[2023] TB - Net Angular\Net\LINQ\DemoLinq\DemoLinq\obj\Debug\net6.0\DemoLinq.AssemblyInfoInputs.cache
+C:\Users\BSTORMAude\Desktop\[2] Current Formations\[2023] TB - Net Angular\Net\LINQ\DemoLinq\DemoLinq\obj\Debug\net6.0\DemoLinq.AssemblyInfo.cs
+C:\Users\BSTORMAude\Desktop\[2] Current Formations\[2023] TB - Net Angular\Net\LINQ\DemoLinq\DemoLinq\obj\Debug\net6.0\DemoLinq.csproj.CoreCompileInputs.cache
+C:\Users\BSTORMAude\Desktop\[2] Current Formations\[2023] TB - Net Angular\Net\LINQ\DemoLinq\DemoLinq\obj\Debug\net6.0\DemoLinq.dll
+C:\Users\BSTORMAude\Desktop\[2] Current Formations\[2023] TB - Net Angular\Net\LINQ\DemoLinq\DemoLinq\obj\Debug\net6.0\refint\DemoLinq.dll
+C:\Users\BSTORMAude\Desktop\[2] Current Formations\[2023] TB - Net Angular\Net\LINQ\DemoLinq\DemoLinq\obj\Debug\net6.0\DemoLinq.pdb
+C:\Users\BSTORMAude\Desktop\[2] Current Formations\[2023] TB - Net Angular\Net\LINQ\DemoLinq\DemoLinq\obj\Debug\net6.0\DemoLinq.genruntimeconfig.cache
+C:\Users\BSTORMAude\Desktop\[2] Current Formations\[2023] TB - Net Angular\Net\LINQ\DemoLinq\DemoLinq\obj\Debug\net6.0\ref\DemoLinq.dll
