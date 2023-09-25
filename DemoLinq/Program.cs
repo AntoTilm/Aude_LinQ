@@ -125,9 +125,9 @@ Console.WriteLine("\nOrderBy\n");
 //Lamda
 //IEnumerable<Contact> mesContacts = Contacts.OrderBy(c => c.Prenom).ThenByDescending(c => c.Nom);
 //Expression
-IEnumerable<Contact> mesContacts = from c in Contacts
-                                   orderby c.Prenom descending, c.Nom descending
-                                   select c;
+//IEnumerable<Contact> mesContacts = from c in Contacts
+//                                   orderby c.Prenom, c.Nom descending
+//                                   select c;
 // Desc
 //Lambda
 //IEnumerable < Contact > mesContacts = Contacts.OrderByDescending(c => c.Nom);
@@ -137,10 +137,45 @@ IEnumerable<Contact> mesContacts = from c in Contacts
 //                                   select c;
 
 
-foreach (Contact c in mesContacts)
-{
-    Console.WriteLine($"{c.Nom} {c.Prenom}");
-}
+//foreach (Contact c in mesContacts)
+//{
+//    Console.WriteLine($"{c.Nom} {c.Prenom}");
+//}
 #endregion
+
+#region Count
+Console.WriteLine("\n\nCount :\n");
+int NbContacts = Contacts.Count();
+int NbThierry = Contacts.Count(c => c.Prenom.Equals("Thierry"));
+long NbContactsBcp = Contacts.LongCount();
+
+Console.WriteLine($"Il y a {NbContacts} contacts dans notre liste");
+Console.WriteLine($"Il y a {NbThierry} Thierry dans notre liste");
+
+#endregion
+
+#region Min & Max
+Console.WriteLine("\n\nMin & Max :\n");
+int MinYear = Contacts.Min(c => c.AnneeDeNaissance);
+int MaxYear = Contacts.Max(c => c.AnneeDeNaissance);
+
+Console.WriteLine($"Le plus vieux est né en {MinYear} et le plus jeune en {MaxYear}");
+#endregion
+
+#region Sum
+Console.WriteLine("\n\nSum :\n");
+int SumAges = Contacts.Sum(c => DateTime.Now.Year - c.AnneeDeNaissance);
+
+Console.WriteLine($"La somme de tous les âges est { SumAges }");
+#endregion
+
+#region Average
+Console.WriteLine("\n\nAverage :\n");
+double AverageAges = Contacts.Average(c => DateTime.Now.Year - c.AnneeDeNaissance);
+
+Console.WriteLine($"La moyenne de tous les âges est {AverageAges}");
+
+#endregion
+
 Console.WriteLine("\n\n\nFin");
 Console.ReadLine();
